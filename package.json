@@ -1,5 +1,5 @@
 {
-  "name": "ReactNativeStarter",
+  "name": "react-native-starter",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "react": "16.13.1",
-    "react-native": "0.63.2"
+    "react-native": "0.63.2",
+    "tailwind-rn": "^1.1.1",
+    "tailwindcss": "^1.6.2"
   },
   "devDependencies": {
     "@babel/core": "^7.11.0",
