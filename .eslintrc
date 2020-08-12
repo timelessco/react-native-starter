@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "react-native/react-native": true
+  },
+  "plugins": ["react", "prettier", "react-native"],
+  "extends": ["eslint:recommended", "prettier", "plugin:react/recommended"],
+  "rules": {
+    "semi":"off"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+       "jsx": true
+    } 
+  }
+}

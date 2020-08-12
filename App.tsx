@@ -1,14 +1,8 @@
 import React from 'react';
-import {
-  SafeAreaView,
-  StatusBar,
-  Text, View
-} from 'react-native';
-import { tailwind } from 'tailwind';
 import AppRoot from './src/app-root';
 
-const App = () => {
-  return  <AppRoot/>;Ø
+const App: React.SFC<Props> = () => {
+  return <AppRoot />;
 };
 
 export default App;

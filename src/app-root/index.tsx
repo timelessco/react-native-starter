@@ -1,16 +1,14 @@
-import React from "react";
-import { StatusBar, StyleSheet, TouchableOpacity,View,Text } from 'react-native';
+import React from 'react';
+import { StatusBar } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import {tailwind} from 'tailwind';
 
-const AppRoot = () => {
+const AppRoot: React.SFC<Props> = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <NavigationContainer>
-      </NavigationContainer>
+      <NavigationContainer></NavigationContainer>
     </>
-  )
-}
+  );
+};
 
 export default AppRoot;
