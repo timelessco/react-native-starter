@@ -12,7 +12,7 @@ module.exports = {
     'react-native/react-native': true,
   },
   extends: [
-    'react-native',
+    '@react-native-community',
     'eslint:recommended',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
@@ -20,16 +20,12 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'prettier/@typescript-eslint',
   ],
-  ecmaFeatures: {
-    jsx: true,
-    classes: true,
-  },
   plugins: [
     'react',
     'react-hooks',
     '@typescript-eslint',
     'prettier',
-    'react-native',
+    '@react-native-community',
   ],
   rules: {
     quotes: ['error', 'single'],

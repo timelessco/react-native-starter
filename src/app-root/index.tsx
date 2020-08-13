@@ -6,7 +6,7 @@ const AppRoot: React.SFC<Props> = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <NavigationContainer></NavigationContainer>
+      <NavigationContainer />
     </>
   );
 };
