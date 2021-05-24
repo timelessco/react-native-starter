@@ -1,12 +1,17 @@
 import React from 'react';
-import { StatusBar } from 'react-native';
+import { StatusBar, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
+import { tailwind } from 'tailwind';
 
-const AppRoot: React.SFC<Props> = () => {
+const AppRoot: React.FC = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <NavigationContainer />
+      <NavigationContainer>
+        <View style={tailwind('flex-1 justify-center items-center')}>
+          <Text>Hello, World</Text>
+        </View>
+      </NavigationContainer>
     </>
   );
 };
