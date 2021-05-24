@@ -8,12 +8,14 @@
     "jsx": "react",
     "lib": ["es6"],
     "moduleResolution": "node",
+    "module": "esnext",
     "noEmit": true,
     "strict": true,
     "target": "esnext",
     "baseUrl": ".",
     "paths": {
-      "@tailwind": ["./tailwind"]
+      "tailwind": ["./tailwind"],
+      "src/*": ["./src/*"]
     }
   },
   "exclude": [
