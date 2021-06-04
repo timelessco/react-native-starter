@@ -28,7 +28,7 @@
 > React Native Reanimated 🦾
 
 ```sh
-    "react-native-reanimated": "^2.1.0",
+    "react-native-reanimated": "^2.2.0",
 ```
 
 > React Navigation 🌐
