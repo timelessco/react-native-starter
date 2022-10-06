@@ -1,15 +1,19 @@
 import React from 'react';
-import { StatusBar, Text, View } from 'react-native';
+import { Pressable, StatusBar, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import { tailwind } from 'tailwind';
 
 const AppRoot: React.FC = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <NavigationContainer>
-        <View style={tailwind('flex-1 justify-center items-center')}>
+        <View className="flex-1 justify-center items-center">
           <Text>Hello, World</Text>
+          <Pressable className="rounded-lg bg-blue-500 px-3 py-1">
+            <Text className="font-bold font-lg text-white">
+              Button
+            </Text>
+          </Pressable>
         </View>
       </NavigationContainer>
     </>
