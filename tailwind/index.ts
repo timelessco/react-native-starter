@@ -1,5 +1,4 @@
-import { create } from 'tailwind-rn';
-import styles from '../styles.json';
+import { create } from 'twrnc';
+import { twConfig } from '../tailwind.config';
 
-const { tailwind, getColor } = create(styles);
-export { tailwind, getColor };
+export const tw = create(twConfig);
