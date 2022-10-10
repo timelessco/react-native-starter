@@ -1,7 +1,8 @@
-![cd6431c33cf9e9f35a9eb1a91f0289cf](https://user-images.githubusercontent.com/35562287/119314882-dcc3d200-bc92-11eb-8383-0a0a4bbce9b3.png)
+
 
 <div align='center'>
   <h1>React Native Boilerplate</h3>
+  <img src="https://user-images.githubusercontent.com/35562287/119314882-dcc3d200-bc92-11eb-8383-0a0a4bbce9b3.png" height="250" width"250" />
 </div>
 
 <h3>Boilerplate powered with :electric_plug: </h3> 
