@@ -50,6 +50,13 @@
   cd ios && pod install && cd ..
 ```
 
+If you encounter any issues try these commands
+```
+watchman shutdown-server (just in case it's running)
+watchman watch-del-all
+yarn start --reset-cache
+```
+
 <h4> This Starter includes the Rename npm package </h4>
 
 ```sh
