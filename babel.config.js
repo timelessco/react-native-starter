@@ -18,5 +18,6 @@ module.exports = {
         cwd: 'babelrc',
       },
     ],
+    'react-native-reanimated/plugin',
   ],
 };
