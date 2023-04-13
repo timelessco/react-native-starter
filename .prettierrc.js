@@ -5,7 +5,6 @@ module.exports = {
   singleQuote: true,
   trailingComma: 'all',
   jsxBracketSameLine: false,
-  parser: 'typescript',
   semi: true,
   arrowParens: 'always',
-}
+};
