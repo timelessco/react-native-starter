@@ -10,7 +10,7 @@ const AppRoot: React.FC = () => {
       <StatusBar barStyle="dark-content" />
       <NavigationContainer>
         <View style={tw`flex-1 justify-center items-center`}>
-          <Text>{Config.ENV}</Text>
+          <Text style={tw`text-black`}>{Config.ENV}</Text>
           <Text>Hello, World</Text>
         </View>
       </NavigationContainer>

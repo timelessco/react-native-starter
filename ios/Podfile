@@ -23,13 +23,13 @@ end
 
 abstract_target 'ReactNativeStarterCommonPods' do
   target 'DEVReactNativeStarter' do
-   end
+  end
 
-   target 'STGReactNativeStarter' do
-   end
+  target 'STGReactNativeStarter' do
+  end
 
-   target 'ReactNativeStarter' do
-   end
+  target 'ReactNativeStarter' do
+  end
    
   config = use_native_modules!
 
