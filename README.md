@@ -39,6 +39,7 @@
 ```
   cd react-native-starter
   yarn
+  yarn adnroid:dev (or yarn ios:dev)
 ```
 
 If you encounter any issues try these commands
