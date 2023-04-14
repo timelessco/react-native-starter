@@ -21,7 +21,16 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'ReactNativeStarter' do
+abstract_target 'ReactNativeStarterCommonPods' do
+  target 'DEVReactNativeStarter' do
+  end
+
+  target 'STGReactNativeStarter' do
+  end
+
+  target 'ReactNativeStarter' do
+  end
+   
   config = use_native_modules!
 
   # Flags change depending on the env values.

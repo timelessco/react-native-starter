@@ -1,41 +1,33 @@
-
-
 <div align='center'>
   <h1>React Native Boilerplate</h3>
   <img src="https://user-images.githubusercontent.com/35562287/119314882-dcc3d200-bc92-11eb-8383-0a0a4bbce9b3.png" height="250" width"250" />
 </div>
 
-<h3>Boilerplate powered with :electric_plug: </h3> 
+<h3>Boilerplate powered with :electric_plug: </h3>
 
 > Typescript 🏷️
 
 ```sh
-    "typescript": "^4.2.4"
+    "typescript": "^4.8.4"
 ```
 
 > Tailwind 🎨
 
 ```sh
-    "tailwind-rn": "^3.0.1",
-    "tailwindcss": "^2.1.2"
+    "twrnc": "^3.6.0",
+    "tailwindcss": "^3.3.1"
 ```
 
 > React Native Gesture Handler 🦾
 
 ```sh
-    "react-native-gesture-handler": "^1.10.3",
+    "react-native-gesture-handler": "^2.9.0",
 ```
 
 > React Native Reanimated 🦾
 
 ```sh
-    "react-native-reanimated": "^2.2.0",
-```
-
-> React Navigation 🌐
-
-```sh
-    "@react-navigation/native": "^5.9.4",
+    "react-native-reanimated": "^3.0.2",
 ```
 
 <h3> Steps to get started </h3>
@@ -46,11 +38,12 @@
 
 ```
   cd react-native-starter
-  npm install
-  cd ios && pod install && cd ..
+  yarn
+  yarn android:dev (or yarn ios:dev)
 ```
 
 If you encounter any issues try these commands
+
 ```
 watchman shutdown-server (just in case it's running)
 watchman watch-del-all
@@ -62,6 +55,8 @@ yarn start --reset-cache
 ```sh
   npx react-native-rename <newName>
 ```
+
+Rename app guide coming soon!
 
 Open your project using Xcode and Hit Play ▶️ !
 
